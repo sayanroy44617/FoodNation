@@ -1,6 +1,39 @@
-.App {
+.app {
   text-align: center;
+  display: center;
+  justify-content: center;
+  align-items: center;
+  display:flex;
+  flex-direction: column;
+  padding:50px 30px;
 }
+
+.app_searchfor{
+  margin-top: 15px;
+  min-width: 40vh;
+  max-width: 80vh;
+}
+
+.search{
+    padding:7px 12px;
+}
+
+.submit{
+  margin-left: 5px;
+  font-size: medium;
+  color:#f3f3f3;
+  background-color:#282c34;
+  cursor:pointer;
+}
+
+.submit:hover{
+  margin-left: 5px;
+  font-size: medium;
+  background-color:#f3f3f3;
+  color:#282c34;
+  cursor:pointer;
+}
+
 
 .App-logo {
   height: 40vmin;
@@ -28,6 +61,13 @@
   color: #61dafb;
 }
 
+.map-rec{
+  display: grid;
+  margin-top: 12px;
+  grid-template-columns: 220px 220px;
+  align-items: baseline;
+
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

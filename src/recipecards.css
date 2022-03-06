@@ -1,0 +1,13 @@
+.rec_img{
+    height:200px;
+    object-fit: cover;
+    border-radius: 4px;
+    border-style: 2px solid;
+}
+
+.rec_name{
+    max-width: 200px;
+    text-align: center;
+    margin: 10px;
+    font-family:fantasy;
+}
